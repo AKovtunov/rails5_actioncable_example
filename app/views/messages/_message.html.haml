@@ -1,0 +1,11 @@
+.row.message
+  .col-xs-2.message-userpic
+    %img{src: message.user_gravatar}
+  .col-xs-10.message-body
+    .message-sender
+      %p
+        %b= message.user_title
+        said at
+        = message.created_at
+    .message-content
+      %p= message.content

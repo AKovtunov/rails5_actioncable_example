@@ -1,0 +1,16 @@
+// Place all the styles related to the rooms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.message{
+  margin: 5px;
+}
+.message-body {
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  border-left: 6px solid #e7e7e7;
+}
+
+.chat-box{
+  margin: 10px;
+  padding: 10px;
+}

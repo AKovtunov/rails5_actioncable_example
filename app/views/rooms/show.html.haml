@@ -1,0 +1,12 @@
+%h1 Chat room
+
+.row
+  .col-xs-6
+    .chat-box
+      #messages
+        = render @messages
+
+      %form.form-group
+        %label Say something:
+        %br
+        %input{type:"text", data:{ behavior: "room_speaker" }, class: "form-control"}
